@@ -3213,3 +3213,850 @@ Caused by: org.neo4j.cypher.internal.frontend.v3_1.InternalException: Expected t
 2017-04-13 12:28:38.777+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
 2017-04-13 12:28:40.717+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
 2017-04-13 12:28:40.717+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-04-14 10:07:49.760+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3298316288 bytes will be used instead. 
+2017-04-14 10:07:49.862+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-04-14 10:07:50.032+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.logs.http.enabled=false
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=E:\Neo4j\default.graphdb
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.database=E:\Neo4j\default.graphdb
+2017-04-14 10:07:50.053+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-04-14 10:07:50.054+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-04-14 10:07:50.065+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 7.90 GB
+2017-04-14 10:07:50.065+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 3.72 GB
+2017-04-14 10:07:50.065+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 279.68 MB
+2017-04-14 10:07:50.065+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 11.53 GB
+2017-04-14 10:07:50.065+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 6.90 GB
+2017-04-14 10:07:50.066+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-04-14 10:07:50.066+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 70.54 MB
+2017-04-14 10:07:50.066+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 123.00 MB
+2017-04-14 10:07:50.066+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 1.76 GB
+2017-04-14 10:07:50.099+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-04-14 10:07:50.099+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2017-04-14 10:07:50.100+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.44 MB, used=5.37 MB, max=240.00 MB, threshold=0.00 B
+2017-04-14 10:07:50.100+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=20.50 MB, used=19.88 MB, max=-1.00 B, threshold=0.00 B
+2017-04-14 10:07:50.100+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=3.00 MB, used=2.72 MB, max=1.00 GB, threshold=0.00 B
+2017-04-14 10:07:50.101+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=32.50 MB, used=9.15 MB, max=664.50 MB, threshold=?
+2017-04-14 10:07:50.101+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=4.99 MB, max=5.00 MB, threshold=?
+2017-04-14 10:07:50.101+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=85.50 MB, used=38.32 MB, max=1.32 GB, threshold=0.00 B
+2017-04-14 10:07:50.101+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-04-14 10:07:50.102+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 8
+2017-04-14 10:07:50.105+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 5828@DESKTOP-HE0A28M
+2017-04-14 10:07:50.105+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-04-14 10:07:50.105+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: GMT
+2017-04-14 10:07:50.105+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-04-14 10:07:50.105+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-04-14 10:07:50.105+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-04-14 10:07:50.105+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.121-b13
+2017-04-14 10:07:50.106+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-04-14 10:07:50.106+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\e:_app_neo4j_ce_3.1.1_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;E:\file\jdk\bin;E:\file\jdk\jre\bin;E:\APP\BK\command;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Me\AppData\Local\Microsoft\WindowsApps;E:\APP\wamp\wamp\bin\mysql\mysql5.6.17\bin;c:\program files\java\jre1.8.0_121\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2017-04-14 10:07:50.106+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\resources.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] E:\APP\Neo4j CE 3.1.1\.install4j\i4jruntime.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/E:/APP/Neo4j%20CE%203.1.1/.install4j/i4jruntime.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/nashorn.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/cldrdata.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\jce.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunec.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunpkcs11.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/E:/APP/Neo4j%20CE%203.1.1/bin/neo4j-desktop-3.1.1.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\classes
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunmscapi.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/access-bridge-64.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] E:\APP\Neo4j CE 3.1.1\bin\neo4j-desktop-3.1.1.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\rt.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/zipfs.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dnsns.jar
+2017-04-14 10:07:50.108+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/localedata.jar
+2017-04-14 10:07:50.109+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunjce_provider.jar
+2017-04-14 10:07:50.109+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jaccess.jar
+2017-04-14 10:07:50.109+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-04-14 10:07:50.109+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2017-04-14 10:07:50.109+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\file\jdk\bin
+2017-04-14 10:07:50.109+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\file\jdk\jre\bin
+2017-04-14 10:07:50.109+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\APP\BK\command
+2017-04-14 10:07:50.110+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\120\Tools\Binn
+2017-04-14 10:07:50.110+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit
+2017-04-14 10:07:50.110+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Users\Me\AppData\Local\Microsoft\WindowsApps
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\APP\wamp\wamp\bin\mysql\mysql5.6.17\bin
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jre1.8.0_121\bin
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\e:_app_neo4j_ce_3.1.1_bin_neo4j-ce.exe
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\java\jre1.8.0_121\bin
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = ;
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = CN
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] user.script = 
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = 
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = E:\APP\Neo4j CE 3.1.1\bin\
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = E:\APP\Neo4j CE 3.1.1\bin
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] user.variant = 
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = GBK
+2017-04-14 10:07:50.111+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = desktop
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = C:\Users\Me
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = GMT
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = GBK
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = 夜七凰
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.launchName = E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = zh
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = E:\APP\Neo4j CE 3.1.1\
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = \
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2017-04-14 10:07:50.112+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-04-14 10:07:50.152+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2017-04-14 10:07:50.152+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller:
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a9:ade1:e24b:a417%eth0
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #3:
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP):
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter:
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.192.4
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:795f:2ed9:2459:1b1c%wlan0
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (RFCOMM Protocol TDI):
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (Personal Area Network):
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #2:
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1956:1660:ba28:c17d%wlan1
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter:
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:c0a8:c004%net5
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2017-04-14 10:07:50.153+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2001:0:9d38:78cf:28b3:488:b09e:a283
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:28b3:488:b09e:a283%net6
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-Native WiFi Filter Driver-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-QoS Packet Scheduler-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-04-14 10:07:50.154+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-04-14 10:07:51.287+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-04-14 10:07:51.288+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7687.
+2017-04-14 10:07:51.629+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store E:\Neo4j\default.graphdb
+2017-04-14 10:07:51.672+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store E:\Neo4j\default.graphdb
+2017-04-14 10:07:51.673+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-04-14 10:07:53.780+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-04-14 10:07:54.940+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-04-14 10:07:54.941+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-04-14 10:07:54.941+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-04-14 10:07:54.942+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1487719403513, randomId=768826105917399728, storeVersion=15531981201765894, upgradeTime=1487719403513, upgradeId=1}
+2017-04-14 10:07:54.942+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.1
+2017-04-14 10:07:54.942+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-04-14 10:07:54.943+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-04-14 10:07:54.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-04-14 10:07:54.944+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-04-14 10:07:54.944+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-04-14 10:07:54.944+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-04-14 10:07:54.945+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=3 high=194
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=16 high=15
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=15 high=14
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=24
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=174
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=3 high=387
+2017-04-14 10:07:54.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=2 high=261
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=10 high=9
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=9 high=8
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=10 high=9
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=9 high=8
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-04-14 10:07:54.947+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1487719403513
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 768826105917399728
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 89
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1487719403513
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -161112287129
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 177589
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1492084111376
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-04-14 10:07:54.948+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-04-14 10:07:54.949+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-04-14 10:07:54.949+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-04-14 10:07:54.950+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-04-14 10:07:54.950+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-04-14 10:07:54.950+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-04-14 10:07:54.951+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 125829115904 / 86170730496 / 68
+Storage files: (filename : modification date - size)
+2017-04-14 10:07:54.951+0000 INFO  [o.n.k.i.DiagnosticsManager]   certificates:
+2017-04-14 10:07:54.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.cert: 2017-02-21T23:23:20+0000 - 1002.00 B
+2017-04-14 10:07:54.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.key: 2017-02-21T23:23:20+0000 - 1.69 kB
+2017-04-14 10:07:54.952+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 2.67 kB
+2017-04-14 10:07:54.952+0000 INFO  [o.n.k.i.DiagnosticsManager]   data:
+2017-04-14 10:07:54.952+0000 INFO  [o.n.k.i.DiagnosticsManager]     dbms:
+2017-04-14 10:07:54.953+0000 INFO  [o.n.k.i.DiagnosticsManager]       auth: 2017-02-21T23:24:35+0000 - 113.00 B
+2017-04-14 10:07:54.953+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-13T15:02:30+0000 - 113.00 B
+2017-04-14 10:07:54.953+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 113.00 B
+2017-04-14 10:07:54.953+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-04-14 10:07:54.953+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-02-21T23:23:23+0000 - 0.00 B
+2017-04-14 10:07:54.953+0000 INFO  [o.n.k.i.DiagnosticsManager]   logs:
+2017-04-14 10:07:55.007+0000 INFO  [o.n.k.i.DiagnosticsManager]     debug.log: 2017-04-14T10:07:54+0000 - 345.74 kB
+2017-04-14 10:07:55.007+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 345.74 kB
+2017-04-14 10:07:55.007+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-04-13T11:48:37+0000 - 8.00 kB
+2017-04-14 10:07:55.007+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-04-13T11:42:57+0000 - 544.00 B
+2017-04-14 10:07:55.008+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-04-13T11:48:37+0000 - 544.00 B
+2017-04-14 10:07:55.008+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.008+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-04-12T21:00:26+0000 - 8.00 kB
+2017-04-14 10:07:55.009+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.009+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-04-12T21:00:26+0000 - 8.00 kB
+2017-04-14 10:07:55.010+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.010+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-04-13T11:48:37+0000 - 8.00 kB
+2017-04-14 10:07:55.013+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-04-14T10:07:51+0000 - 1.51 kB
+2017-04-14 10:07:55.013+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-02-21T23:23:21+0000 - 8.00 kB
+2017-04-14 10:07:55.014+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-04-14T10:07:51+0000 - 9.00 B
+2017-04-14 10:07:55.014+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-04-13T11:42:57+0000 - 15.94 kB
+2017-04-14 10:07:55.014+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-04-11T11:54:46+0000 - 24.00 kB
+2017-04-14 10:07:55.017+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-04-14T10:07:52+0000 - 1.37 kB
+2017-04-14 10:07:55.056+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-04-14T10:07:52+0000 - 3.02 kB
+2017-04-14 10:07:55.056+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-04-12T20:42:15+0000 - 8.00 kB
+2017-04-14 10:07:55.057+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.057+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-04-12T20:42:15+0000 - 8.00 kB
+2017-04-14 10:07:55.058+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.058+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-04-11T11:54:47+0000 - 8.00 kB
+2017-04-14 10:07:55.061+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-04-14T10:07:52+0000 - 201.00 B
+2017-04-14 10:07:55.062+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-02-21T23:23:23+0000 - 8.00 kB
+2017-04-14 10:07:55.062+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.063+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-04-13T11:42:57+0000 - 15.94 kB
+2017-04-14 10:07:55.067+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-04-14T10:07:52+0000 - 2.04 kB
+2017-04-14 10:07:55.067+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-04-13T09:39:13+0000 - 8.00 kB
+2017-04-14 10:07:55.068+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.068+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-04-13T09:39:13+0000 - 8.00 kB
+2017-04-14 10:07:55.069+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.069+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-02-21T23:23:23+0000 - 8.00 kB
+2017-04-14 10:07:55.069+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-04-14T10:07:52+0000 - 9.00 B
+2017-04-14 10:07:55.069+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-04-13T12:28:38+0000 - 173.46 kB
+2017-04-14 10:07:55.070+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-04-14 10:07:55.070+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-04-14 10:07:55.070+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-04-14 10:07:55.070+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-04-14 10:07:55.070+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-04-14 10:07:55.070+0000 INFO  [o.n.k.i.DiagnosticsManager]             _10.cfe: 2017-04-13T11:42:57+0000 - 305.00 B
+2017-04-14 10:07:55.070+0000 INFO  [o.n.k.i.DiagnosticsManager]             _10.cfs: 2017-04-13T11:42:57+0000 - 2.06 kB
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]             _10.si: 2017-04-13T11:42:57+0000 - 365.00 B
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]             segments_t: 2017-04-13T11:42:57+0000 - 137.00 B
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-02-21T23:23:24+0000 - 0.00 B
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-04-13T11:42:57+0000 - 2.85 kB
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-02-21T23:23:23+0000 - 16.00 kB
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-03-13T15:02:30+0000 - 18.85 kB
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-03-13T15:02:30+0000 - 18.85 kB
+2017-04-14 10:07:55.071+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-13T15:02:30+0000 - 18.85 kB
+2017-04-14 10:07:55.072+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 18.85 kB
+2017-04-14 10:07:55.072+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-02-21T23:23:21+0000 - 0.00 B
+2017-04-14 10:07:55.072+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-04-14 10:07:58.176+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-04-14 10:07:59.771+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 210ms.
+2017-04-14 10:08:00.165+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-04-14 13:09:34.569+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [91]:  Starting check pointing...
+2017-04-14 13:09:34.570+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [91]:  Starting store flush...
+2017-04-14 13:09:34.714+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 91 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 13:09:34.721+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 91 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 13:09:34.930+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [91]:  Store flush completed
+2017-04-14 13:09:34.930+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [91]:  Starting appending check point entry into the tx log...
+2017-04-14 13:09:34.944+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [91]:  Appending check point entry into the tx log completed
+2017-04-14 13:09:34.944+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [91]:  Check pointing completed
+2017-04-14 13:09:34.944+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 13:09:34.944+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 14:45:36.759+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1599ms.
+2017-04-14 15:19:06.749+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [93]:  Starting check pointing...
+2017-04-14 15:19:06.750+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [93]:  Starting store flush...
+2017-04-14 15:19:06.753+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 93 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:19:06.783+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 93 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:19:07.161+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [93]:  Store flush completed
+2017-04-14 15:19:07.161+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [93]:  Starting appending check point entry into the tx log...
+2017-04-14 15:19:07.186+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [93]:  Appending check point entry into the tx log completed
+2017-04-14 15:19:07.186+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [93]:  Check pointing completed
+2017-04-14 15:19:07.187+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:19:07.187+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 15:28:47.233+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [96]:  Starting check pointing...
+2017-04-14 15:28:47.233+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [96]:  Starting store flush...
+2017-04-14 15:28:47.359+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 96 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:28:47.362+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 96 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:28:47.856+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [96]:  Store flush completed
+2017-04-14 15:28:47.856+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [96]:  Starting appending check point entry into the tx log...
+2017-04-14 15:28:47.932+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [96]:  Appending check point entry into the tx log completed
+2017-04-14 15:28:47.932+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [96]:  Check pointing completed
+2017-04-14 15:28:47.932+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:28:47.932+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 15:33:47.952+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [99]:  Starting check pointing...
+2017-04-14 15:33:47.952+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [99]:  Starting store flush...
+2017-04-14 15:33:48.064+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 99 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:33:48.069+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 99 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:33:48.186+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [99]:  Store flush completed
+2017-04-14 15:33:48.187+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [99]:  Starting appending check point entry into the tx log...
+2017-04-14 15:33:48.205+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [99]:  Appending check point entry into the tx log completed
+2017-04-14 15:33:48.205+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [99]:  Check pointing completed
+2017-04-14 15:33:48.205+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:33:48.206+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 15:38:48.226+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [100]:  Starting check pointing...
+2017-04-14 15:38:48.226+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [100]:  Starting store flush...
+2017-04-14 15:38:48.226+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 100 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:38:48.230+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 100 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:38:48.379+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [100]:  Store flush completed
+2017-04-14 15:38:48.380+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [100]:  Starting appending check point entry into the tx log...
+2017-04-14 15:38:48.394+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [100]:  Appending check point entry into the tx log completed
+2017-04-14 15:38:48.394+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [100]:  Check pointing completed
+2017-04-14 15:38:48.394+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:38:48.394+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 15:43:48.415+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Starting check pointing...
+2017-04-14 15:43:48.415+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Starting store flush...
+2017-04-14 15:43:48.415+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 101 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:43:48.419+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 101 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:43:48.512+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Store flush completed
+2017-04-14 15:43:48.512+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Starting appending check point entry into the tx log...
+2017-04-14 15:43:48.538+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Appending check point entry into the tx log completed
+2017-04-14 15:43:48.538+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [101]:  Check pointing completed
+2017-04-14 15:43:48.538+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:43:48.538+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 15:48:48.559+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [105]:  Starting check pointing...
+2017-04-14 15:48:48.559+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [105]:  Starting store flush...
+2017-04-14 15:48:48.560+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 105 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:48:48.564+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 105 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:48:48.909+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [105]:  Store flush completed
+2017-04-14 15:48:48.910+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [105]:  Starting appending check point entry into the tx log...
+2017-04-14 15:48:48.938+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [105]:  Appending check point entry into the tx log completed
+2017-04-14 15:48:48.939+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [105]:  Check pointing completed
+2017-04-14 15:48:48.939+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:48:48.939+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 15:53:48.959+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting check pointing...
+2017-04-14 15:53:48.959+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting store flush...
+2017-04-14 15:53:49.111+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 107 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:53:49.116+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 107 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 15:53:49.222+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Store flush completed
+2017-04-14 15:53:49.222+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting appending check point entry into the tx log...
+2017-04-14 15:53:49.248+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Appending check point entry into the tx log completed
+2017-04-14 15:53:49.248+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Check pointing completed
+2017-04-14 15:53:49.248+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:53:49.248+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 15:58:49.273+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Starting check pointing...
+2017-04-14 15:58:49.274+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Starting store flush...
+2017-04-14 15:58:49.469+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 109 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:58:49.472+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 109 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 15:58:49.590+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Store flush completed
+2017-04-14 15:58:49.590+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Starting appending check point entry into the tx log...
+2017-04-14 15:58:49.627+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Appending check point entry into the tx log completed
+2017-04-14 15:58:49.627+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Check pointing completed
+2017-04-14 15:58:49.627+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 15:58:49.627+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:03:49.650+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [112]:  Starting check pointing...
+2017-04-14 16:03:49.650+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [112]:  Starting store flush...
+2017-04-14 16:03:49.750+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 112 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:03:49.754+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 112 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:03:49.900+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [112]:  Store flush completed
+2017-04-14 16:03:49.900+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [112]:  Starting appending check point entry into the tx log...
+2017-04-14 16:03:49.915+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [112]:  Appending check point entry into the tx log completed
+2017-04-14 16:03:49.915+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [112]:  Check pointing completed
+2017-04-14 16:03:49.915+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:03:49.915+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:08:49.937+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [113]:  Starting check pointing...
+2017-04-14 16:08:49.937+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [113]:  Starting store flush...
+2017-04-14 16:08:50.090+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 113 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 16:08:50.093+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 113 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 16:08:50.212+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [113]:  Store flush completed
+2017-04-14 16:08:50.212+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [113]:  Starting appending check point entry into the tx log...
+2017-04-14 16:08:50.238+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [113]:  Appending check point entry into the tx log completed
+2017-04-14 16:08:50.238+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [113]:  Check pointing completed
+2017-04-14 16:08:50.238+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:08:50.238+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:14:50.262+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [114]:  Starting check pointing...
+2017-04-14 16:14:50.262+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [114]:  Starting store flush...
+2017-04-14 16:14:50.504+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 114 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:14:50.508+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 114 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:14:50.620+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [114]:  Store flush completed
+2017-04-14 16:14:50.620+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [114]:  Starting appending check point entry into the tx log...
+2017-04-14 16:14:50.646+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [114]:  Appending check point entry into the tx log completed
+2017-04-14 16:14:50.646+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [114]:  Check pointing completed
+2017-04-14 16:14:50.646+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:14:50.646+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:19:50.663+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [116]:  Starting check pointing...
+2017-04-14 16:19:50.664+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [116]:  Starting store flush...
+2017-04-14 16:19:50.664+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 116 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 16:19:50.668+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 116 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 16:19:50.798+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [116]:  Store flush completed
+2017-04-14 16:19:50.798+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [116]:  Starting appending check point entry into the tx log...
+2017-04-14 16:19:50.823+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [116]:  Appending check point entry into the tx log completed
+2017-04-14 16:19:50.823+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [116]:  Check pointing completed
+2017-04-14 16:19:50.823+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:19:50.824+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:24:50.845+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Starting check pointing...
+2017-04-14 16:24:50.845+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Starting store flush...
+2017-04-14 16:24:51.005+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 119 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:24:51.009+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 119 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:24:51.130+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Store flush completed
+2017-04-14 16:24:51.130+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Starting appending check point entry into the tx log...
+2017-04-14 16:24:51.145+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Appending check point entry into the tx log completed
+2017-04-14 16:24:51.145+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [119]:  Check pointing completed
+2017-04-14 16:24:51.145+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:24:51.145+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:32:21.178+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [120]:  Starting check pointing...
+2017-04-14 16:32:21.178+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [120]:  Starting store flush...
+2017-04-14 16:32:21.178+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 120 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 16:32:21.185+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 120 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 16:32:21.502+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [120]:  Store flush completed
+2017-04-14 16:32:21.502+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [120]:  Starting appending check point entry into the tx log...
+2017-04-14 16:32:21.517+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [120]:  Appending check point entry into the tx log completed
+2017-04-14 16:32:21.517+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [120]:  Check pointing completed
+2017-04-14 16:32:21.517+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:32:21.517+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:37:21.540+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [124]:  Starting check pointing...
+2017-04-14 16:37:21.540+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [124]:  Starting store flush...
+2017-04-14 16:37:21.642+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 124 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:37:21.645+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 124 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 16:37:21.813+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [124]:  Store flush completed
+2017-04-14 16:37:21.813+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [124]:  Starting appending check point entry into the tx log...
+2017-04-14 16:37:21.850+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [124]:  Appending check point entry into the tx log completed
+2017-04-14 16:37:21.850+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [124]:  Check pointing completed
+2017-04-14 16:37:21.850+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:37:21.850+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:55:19.968+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2017-04-14 16:55:19.970+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2017-04-14 16:55:20.013+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [124]:  Starting check pointing...
+2017-04-14 16:55:20.013+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [124]:  Starting store flush...
+2017-04-14 16:55:20.030+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [124]:  Store flush completed
+2017-04-14 16:55:20.030+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [124]:  Starting appending check point entry into the tx log...
+2017-04-14 16:55:20.046+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [124]:  Appending check point entry into the tx log completed
+2017-04-14 16:55:20.046+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [124]:  Check pointing completed
+2017-04-14 16:55:20.046+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 16:55:20.046+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 16:55:22.021+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-04-14 16:55:22.021+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-04-14 16:55:24.207+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3298316288 bytes will be used instead. 
+2017-04-14 16:55:24.238+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.logs.http.enabled=false
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=E:\Neo4j\default.graphdb
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.database=E:\Neo4j\default.graphdb
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-04-14 16:55:24.246+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-04-14 16:55:24.247+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-04-14 16:55:24.247+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2017-04-14 16:55:24.247+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 7.90 GB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 3.60 GB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 645.51 MB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 12.53 GB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 6.45 GB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 186.02 MB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 273.50 MB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 1.76 GB
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=36.50 MB, used=36.24 MB, max=240.00 MB, threshold=0.00 B
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=76.75 MB, used=74.64 MB, max=-1.00 B, threshold=0.00 B
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=11.75 MB, used=11.35 MB, max=1.00 GB, threshold=0.00 B
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=93.50 MB, used=38.85 MB, max=641.00 MB, threshold=?
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=15.00 MB, used=6.29 MB, max=15.00 MB, threshold=?
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=165.00 MB, used=42.34 MB, max=1.32 GB, threshold=0.00 B
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-04-14 16:55:24.260+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 8
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 5828@DESKTOP-HE0A28M
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: GMT
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.121-b13
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\e:_app_neo4j_ce_3.1.1_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;E:\file\jdk\bin;E:\file\jdk\jre\bin;E:\APP\BK\command;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Me\AppData\Local\Microsoft\WindowsApps;E:\APP\wamp\wamp\bin\mysql\mysql5.6.17\bin;c:\program files\java\jre1.8.0_121\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2017-04-14 16:55:24.261+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\resources.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] E:\APP\Neo4j CE 3.1.1\.install4j\i4jruntime.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/E:/APP/Neo4j%20CE%203.1.1/.install4j/i4jruntime.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/nashorn.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/cldrdata.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\jce.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunec.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunpkcs11.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/E:/APP/Neo4j%20CE%203.1.1/bin/neo4j-desktop-3.1.1.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\classes
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunmscapi.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/access-bridge-64.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] E:\APP\Neo4j CE 3.1.1\bin\neo4j-desktop-3.1.1.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\rt.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jfxrt.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/zipfs.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/dnsns.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/localedata.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/sunjce_provider.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_121/lib/ext/jaccess.jar
+2017-04-14 16:55:24.326+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2017-04-14 16:55:24.351+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2017-04-14 16:55:24.364+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\file\jdk\bin
+2017-04-14 16:55:24.364+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\file\jdk\jre\bin
+2017-04-14 16:55:24.364+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\APP\BK\command
+2017-04-14 16:55:24.364+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\120\Tools\Binn
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Users\Me\AppData\Local\Microsoft\WindowsApps
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] E:\APP\wamp\wamp\bin\mysql\mysql5.6.17\bin
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jre1.8.0_121\bin
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\e:_app_neo4j_ce_3.1.1_bin_neo4j-ce.exe
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\java\jre1.8.0_121\bin
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = ;
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = CN
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] user.script = 
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = 
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = E:\APP\Neo4j CE 3.1.1\bin\
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = E:\APP\Neo4j CE 3.1.1\bin
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] user.variant = 
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = GBK
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.nio.ch.bugLevel = 
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = desktop
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = C:\Users\Me
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = GMT
+2017-04-14 16:55:24.365+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = GBK
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = 夜七凰
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.launchName = E:\APP\Neo4j CE 3.1.1\bin\neo4j-ce.exe
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = zh
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = E:\APP\Neo4j CE 3.1.1\
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = \
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2017-04-14 16:55:24.366+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller:
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:a9:ade1:e24b:a417%eth0
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #3:
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP):
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter:
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.192.4
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:795f:2ed9:2459:1b1c%wlan0
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (RFCOMM Protocol TDI):
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (Personal Area Network):
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #2:
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1956:1660:ba28:c17d%wlan1
+2017-04-14 16:55:24.418+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:c0a8:c004%net5
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2001:0:9d38:78cf:28b3:488:b09e:a283
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:28b3:488:b09e:a283%net6
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-Native WiFi Filter Driver-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-QoS Packet Scheduler-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Qualcomm Atheros AR956x Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-04-14 16:55:24.419+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-04-14 16:55:24.520+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-04-14 16:55:24.521+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7687.
+2017-04-14 16:55:24.544+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store E:\Neo4j\default.graphdb
+2017-04-14 16:55:24.547+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store E:\Neo4j\default.graphdb
+2017-04-14 16:55:24.547+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2017-04-14 16:55:25.419+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-04-14 16:55:25.433+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-04-14 16:55:25.433+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1487719403513, randomId=768826105917399728, storeVersion=15531981201765894, upgradeTime=1487719403513, upgradeId=1}
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.1
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2017-04-14 16:55:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=10 high=194
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=19 high=18
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=18 high=17
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=24
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=174
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=11 high=387
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=3 high=261
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=12 high=11
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=11 high=10
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=13 high=12
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=12 high=11
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-04-14 16:55:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1487719403513
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 768826105917399728
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 124
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1487719403513
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -160314948202
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 187284
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1492187818613
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-04-14 16:55:25.436+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-04-14 16:55:25.437+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 125829115904 / 86170656768 / 68
+Storage files: (filename : modification date - size)
+2017-04-14 16:55:25.437+0000 INFO  [o.n.k.i.DiagnosticsManager]   certificates:
+2017-04-14 16:55:25.437+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.cert: 2017-02-21T23:23:20+0000 - 1002.00 B
+2017-04-14 16:55:25.437+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.key: 2017-02-21T23:23:20+0000 - 1.69 kB
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 2.67 kB
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]   data:
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]     dbms:
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]       auth: 2017-02-21T23:24:35+0000 - 113.00 B
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-13T15:02:30+0000 - 113.00 B
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 113.00 B
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-02-21T23:23:23+0000 - 0.00 B
+2017-04-14 16:55:25.438+0000 INFO  [o.n.k.i.DiagnosticsManager]   logs:
+2017-04-14 16:55:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]     debug.log: 2017-04-14T16:55:22+0000 - 408.88 kB
+2017-04-14 16:55:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 408.88 kB
+2017-04-14 16:55:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2017-04-14T16:37:21+0000 - 8.00 kB
+2017-04-14 16:55:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-04-14T16:32:21+0000 - 736.00 B
+2017-04-14 16:55:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-04-14T16:37:21+0000 - 736.00 B
+2017-04-14 16:55:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-04-14T16:55:25+0000 - 9.00 B
+2017-04-14 16:55:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-04-14T16:37:21+0000 - 8.00 kB
+2017-04-14 16:55:25.445+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-04-14T16:55:25+0000 - 9.00 B
+2017-04-14 16:55:25.445+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-04-14T16:37:21+0000 - 8.00 kB
+2017-04-14 16:55:25.446+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-04-14T16:55:25+0000 - 9.00 B
+2017-04-14 16:55:25.446+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-04-14T16:37:21+0000 - 8.00 kB
+2017-04-14 16:55:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-04-14T16:55:24+0000 - 1.45 kB
+2017-04-14 16:55:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-02-21T23:23:21+0000 - 8.00 kB
+2017-04-14 16:55:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-04-14T16:55:24+0000 - 9.00 B
+2017-04-14 16:55:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-04-14T16:37:21+0000 - 15.94 kB
+2017-04-14 16:55:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-04-14T16:32:21+0000 - 24.00 kB
+2017-04-14 16:55:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-04-14T16:55:24+0000 - 1.37 kB
+2017-04-14 16:55:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-04-14T16:55:25+0000 - 2.95 kB
+2017-04-14 16:55:25.454+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-04-14T16:03:49+0000 - 8.00 kB
+2017-04-14 16:55:25.454+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-04-14T16:55:24+0000 - 9.00 B
+2017-04-14 16:55:25.454+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-04-14T16:03:49+0000 - 8.00 kB
+2017-04-14 16:55:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-04-14T16:55:24+0000 - 9.00 B
+2017-04-14 16:55:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-04-11T11:54:47+0000 - 8.00 kB
+2017-04-14 16:55:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-04-14T16:55:24+0000 - 201.00 B
+2017-04-14 16:55:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-02-21T23:23:23+0000 - 8.00 kB
+2017-04-14 16:55:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-04-14T16:55:25+0000 - 9.00 B
+2017-04-14 16:55:25.459+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-04-14T16:32:21+0000 - 15.94 kB
+2017-04-14 16:55:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-04-14T16:55:25+0000 - 2.03 kB
+2017-04-14 16:55:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-04-14T15:48:48+0000 - 8.00 kB
+2017-04-14 16:55:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-04-14T16:55:25+0000 - 9.00 B
+2017-04-14 16:55:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-04-14T15:48:48+0000 - 8.00 kB
+2017-04-14 16:55:25.463+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-04-14T16:55:25+0000 - 9.00 B
+2017-04-14 16:55:25.463+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-02-21T23:23:23+0000 - 8.00 kB
+2017-04-14 16:55:25.463+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-04-14T16:55:25+0000 - 9.00 B
+2017-04-14 16:55:25.463+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-04-14T16:55:20+0000 - 182.93 kB
+2017-04-14 16:55:25.463+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]             _1e.cfe: 2017-04-14T16:37:21+0000 - 305.00 B
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]             _1e.cfs: 2017-04-14T16:37:21+0000 - 2.66 kB
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]             _1e.si: 2017-04-14T16:37:21+0000 - 365.00 B
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]             segments_13: 2017-04-14T16:37:21+0000 - 138.00 B
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2017-02-21T23:23:24+0000 - 0.00 B
+2017-04-14 16:55:25.464+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2017-04-14T16:37:21+0000 - 3.45 kB
+2017-04-14 16:55:25.465+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2017-02-21T23:23:23+0000 - 16.00 kB
+2017-04-14 16:55:25.465+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2017-03-13T15:02:30+0000 - 19.45 kB
+2017-04-14 16:55:25.465+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2017-03-13T15:02:30+0000 - 19.45 kB
+2017-04-14 16:55:25.465+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2017-03-13T15:02:30+0000 - 19.45 kB
+2017-04-14 16:55:25.465+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2017-03-13T15:02:30+0000 - 19.45 kB
+2017-04-14 16:55:25.465+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2017-02-21T23:23:21+0000 - 0.00 B
+2017-04-14 16:55:25.465+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-04-14 16:55:25.471+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-04-14 16:55:25.936+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-04-14 17:00:25.438+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [126]:  Starting check pointing...
+2017-04-14 17:00:25.438+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [126]:  Starting store flush...
+2017-04-14 17:00:25.439+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 126 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 17:00:25.444+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 126 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 17:00:25.676+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [126]:  Store flush completed
+2017-04-14 17:00:25.676+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [126]:  Starting appending check point entry into the tx log...
+2017-04-14 17:00:25.694+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [126]:  Appending check point entry into the tx log completed
+2017-04-14 17:00:25.694+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [126]:  Check pointing completed
+2017-04-14 17:00:25.694+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 17:00:25.694+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 17:07:55.727+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [127]:  Starting check pointing...
+2017-04-14 17:07:55.728+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [127]:  Starting store flush...
+2017-04-14 17:07:55.729+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 127 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 17:07:55.737+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 127 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 17:07:55.864+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [127]:  Store flush completed
+2017-04-14 17:07:55.864+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [127]:  Starting appending check point entry into the tx log...
+2017-04-14 17:07:55.888+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [127]:  Appending check point entry into the tx log completed
+2017-04-14 17:07:55.888+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [127]:  Check pointing completed
+2017-04-14 17:07:55.888+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 17:07:55.889+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 17:14:25.916+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [128]:  Starting check pointing...
+2017-04-14 17:14:25.916+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [128]:  Starting store flush...
+2017-04-14 17:14:25.917+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 128 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 17:14:25.923+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 128 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 17:14:26.059+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [128]:  Store flush completed
+2017-04-14 17:14:26.059+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [128]:  Starting appending check point entry into the tx log...
+2017-04-14 17:14:26.073+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [128]:  Appending check point entry into the tx log completed
+2017-04-14 17:14:26.073+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [128]:  Check pointing completed
+2017-04-14 17:14:26.074+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 17:14:26.074+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 17:22:06.114+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [129]:  Starting check pointing...
+2017-04-14 17:22:06.114+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [129]:  Starting store flush...
+2017-04-14 17:22:06.114+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 129 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 17:22:06.118+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 129 to [E:\Neo4j\default.graphdb\neostore.counts.db.b], from [E:\Neo4j\default.graphdb\neostore.counts.db.a].
+2017-04-14 17:22:06.302+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [129]:  Store flush completed
+2017-04-14 17:22:06.302+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [129]:  Starting appending check point entry into the tx log...
+2017-04-14 17:22:06.331+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [129]:  Appending check point entry into the tx log completed
+2017-04-14 17:22:06.331+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [129]:  Check pointing completed
+2017-04-14 17:22:06.331+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 17:22:06.331+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-04-14 17:27:06.357+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [131]:  Starting check pointing...
+2017-04-14 17:27:06.357+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [131]:  Starting store flush...
+2017-04-14 17:27:06.358+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 131 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 17:27:06.361+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 131 to [E:\Neo4j\default.graphdb\neostore.counts.db.a], from [E:\Neo4j\default.graphdb\neostore.counts.db.b].
+2017-04-14 17:27:06.505+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [131]:  Store flush completed
+2017-04-14 17:27:06.505+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [131]:  Starting appending check point entry into the tx log...
+2017-04-14 17:27:06.520+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [131]:  Appending check point entry into the tx log completed
+2017-04-14 17:27:06.520+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [131]:  Check pointing completed
+2017-04-14 17:27:06.520+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-04-14 17:27:06.520+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
